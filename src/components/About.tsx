@@ -4,7 +4,7 @@ export default function About() {
       <h2>About Me</h2>
       <div className="about-content">
         <p>
-          I'm a third-year student at QUT, pursuing a dual degree in Software Engineering and Cyber Security. 
+          I'm a third-year student at QUT, pursuing a dual degree in <strong>Software Engineering and Cyber Security</strong>. 
           I thrive on practical problem-solving and enjoy bridging the gap between building robust software and securing it. 
           My approach is defined by being hands-on, whether I'm debugging code or troubleshooting complex systems.
         </p>

@@ -2,7 +2,7 @@ export default function Projects() {
   const projects = [
     {
       title: "Portfolio Website",
-      description: "A modern, responsive portfolio built with React, TypeScript, and Vite. Designed to showcase my software engineering skills.",
+      description: "A modern, responsive portfolio built with React, TypeScript, and Vite. Designed to showcase my software engineering skills. Self taught with the help of YouTube tutorials and skills learned at QUT ",
       tags: ["React", "TypeScript", "Vite", "CSS"]
     },
     {
@@ -11,9 +11,10 @@ export default function Projects() {
       tags: ["Python", "Networking", "Security"]
     },
     {
-      title: "Secure Chat Application",
-      description: "End-to-end encrypted messaging app utilizing AES-256 for secure communication between clients.",
-      tags: ["Java", "Cryptography", "Socket Programming"]
+      title: "NeuroDeck",
+      description: "An interactive study app for university students integrating LibreTexts for open-access textbooks. Features AI-powered summaries, automated flashcard generation, and Anki-style spaced repetition for active learning.",
+      tags: ["Java", "AI Integration", "LibreTexts API", "Spaced Repetition"],
+      link: "https://lammy8.github.io/CAB-302/"
     }
   ];
 
@@ -30,6 +31,11 @@ export default function Projects() {
                 <span key={tag} className="tag">{tag}</span>
               ))}
             </div>
+            {project.link && (
+              <a href={project.link} target="_blank" rel="noreferrer" className="project-link-btn">
+                JavaDocs →
+              </a>
+            )}
           </div>
         ))}
       </div>
