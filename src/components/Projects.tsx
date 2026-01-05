@@ -6,14 +6,9 @@ export default function Projects() {
       tags: ["React", "TypeScript", "Vite", "CSS"]
     },
     {
-      title: "Network Packet Sniffer",
-      description: "A Python-based tool for analyzing network traffic patterns and detecting potential security anomalies.",
-      tags: ["Python", "Networking", "Security"]
-    },
-    {
       title: "NeuroDeck",
       description: "An interactive study app for university students integrating LibreTexts for open-access textbooks. Features AI-powered summaries, automated flashcard generation, and Anki-style spaced repetition for active learning.",
-      tags: ["Java", "AI Integration", "LibreTexts API", "Spaced Repetition"],
+      tags: ["Java", "AI Integration", "LibreTexts API", "Web Scraping"],
       link: "https://lammy8.github.io/CAB-302/"
     }
   ];
