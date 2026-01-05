@@ -156,6 +156,20 @@ h2::after {
   font-weight: 500;
 }
 
+/* About Content */
+.about-content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.about-content p {
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+  color: #ccc;
+  font-size: 1.1rem;
+}
+
 /* Footer */
 footer {
   text-align: center;
