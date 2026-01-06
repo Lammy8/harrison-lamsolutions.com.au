@@ -11,7 +11,7 @@ export default function Hero() {
             <h2 className="mx-auto mt-2 mb-5">
               Software Engineering & Cyber Security Student
             </h2>
-            <a href="#about" className="btn-scroll-down mt-50">
+            <a href="#about" className="btn-scroll-down">
               <ChevronDoubleDown size={40} />
             </a>
           </div>
