@@ -1,7 +1,11 @@
+import { Container } from 'react-bootstrap';
+
 export default function Footer() {
   return (
-    <footer>
-      <p>&copy; {new Date().getFullYear()} Lam Solutions. All rights reserved.</p>
+    <footer className="footer bg-black small text-center text-white-50">
+      <Container>
+        Copyright &copy; Lam Solutions {new Date().getFullYear()}
+      </Container>
     </footer>
   );
 }

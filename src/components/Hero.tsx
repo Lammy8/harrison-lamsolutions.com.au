@@ -1,9 +1,22 @@
+import { Container } from 'react-bootstrap';
+import { ChevronDoubleDown } from 'react-bootstrap-icons';
+
 export default function Hero() {
   return (
-    <section id="hero" className="hero-section">
-      <h1>Hi, I'm Harrison Lam</h1>
-      <p>Software Engineering & Cyber Security Student</p>
-      <button>View My Work</button>
-    </section>
+    <header className="masthead">
+      <Container className="d-flex h-100 align-items-center justify-content-center">
+        <div className="d-flex justify-content-center">
+          <div className="text-center">
+            <h1 className="mx-auto my-0 text-uppercase">Harrison Lam</h1>
+            <h2 className="mx-auto mt-2 mb-5">
+              Software Engineering & Cyber Security Student
+            </h2>
+            <a href="#about" className="btn-scroll-down mt-50">
+              <ChevronDoubleDown size={40} />
+            </a>
+          </div>
+        </div>
+      </Container>
+    </header>
   );
 }
