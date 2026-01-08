@@ -13,16 +13,35 @@ export default function Contact() {
                 <h4 className="text-uppercase m-0">Email</h4>
                 <hr className="my-4 mx-auto" style={{ borderColor: '#000f50ff', width: '100px' }} />
                 <div className="text-white-50 d-flex justify-content-center">
+
                   <a 
                     href="#" 
                     className="text-white-50 text-decoration-none d-flex align-items-center gap-2"
                     onClick={(e) => {
                       e.preventDefault();
-                      window.location.href = 'mailto:harrison' + '@' + 'lamsolutions.com.au';
+                      window.location.href = 'mailto:h4rrisonl' + '@' + 'outlook.com';
                     }}
                   >
                     <Envelope size={20} /> 
-                    <span>harrison{'@'}lamsolutions.com.au</span>
+                    <span>h4rrisonl{'@'}outlook.com</span>
+                  </a>
+
+                  </div>
+
+                  <hr className="my-4 mx-auto" style={{ borderColor: '#000f50ff', width: '100px' }} />
+                  <div className="text-white-50 d-flex justify-content-center">
+
+
+                  <a 
+                    href="#" 
+                    className="text-white-50 text-decoration-none d-flex align-items-center gap-2"
+                    onClick={(e) => {
+                      e.preventDefault();
+                      window.location.href = 'mailto:harrison' + '@' + 'outlook.com';
+                    }}
+                  >
+                    <Envelope size={20} /> 
+                    <span>harrison{'@'}outlook.com</span>
                   </a>
                 </div>
               </Card.Body>
