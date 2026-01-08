@@ -37,11 +37,11 @@ export default function Contact() {
                     className="text-white-50 text-decoration-none d-flex align-items-center gap-2"
                     onClick={(e) => {
                       e.preventDefault();
-                      window.location.href = 'mailto:harrison' + '@' + 'outlook.com';
+                      window.location.href = 'mailto:harrison' + '@' + 'lamsolutions.com.au';
                     }}
                   >
                     <Envelope size={20} /> 
-                    <span>harrison{'@'}outlook.com</span>
+                    <span>harrison{'@'}lamsolutions.com.au</span>
                   </a>
                 </div>
               </Card.Body>
