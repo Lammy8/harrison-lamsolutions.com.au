@@ -1,5 +1,5 @@
 import { Container, Row, Col, Card } from 'react-bootstrap';
-import { Github, Linkedin, Envelope } from 'react-bootstrap-icons';
+import { Github, Linkedin, Envelope, Camera } from 'react-bootstrap-icons';
 
 export default function Contact() {
   return (
@@ -25,13 +25,9 @@ export default function Contact() {
                     <Envelope size={20} /> 
                     <span>h4rrisonl{'@'}outlook.com</span>
                   </a>
-
                   </div>
-
                   <hr className="my-4 mx-auto" style={{ borderColor: '#000f50ff', width: '100px' }} />
                   <div className="text-white-50 d-flex justify-content-center">
-
-
                   <a 
                     href="#" 
                     className="text-white-50 text-decoration-none d-flex align-items-center gap-2"
@@ -59,6 +55,9 @@ export default function Contact() {
                   </a>
                   <a href="https://www.linkedin.com/in/harrison-lam-8hl88" target="_blank" rel="noopener noreferrer" className="text-white-50 text-decoration-none d-flex align-items-center gap-2">
                     <Linkedin size={20} /> LinkedIn
+                  </a>
+                  <a href="https://www.instagram.com/harrison8.jpg/" target="_blank" rel="noopener noreferrer" className="text-white-50 text-decoration-none d-flex align-items-center gap-2">
+                    <Camera size={20} /> Instagram
                   </a>
                 </div>
               </Card.Body>
