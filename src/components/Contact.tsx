@@ -57,7 +57,7 @@ export default function Contact() {
                     <Linkedin size={20} /> LinkedIn
                   </a>
                   <a href="https://www.instagram.com/harrison8.jpg/" target="_blank" rel="noopener noreferrer" className="text-white-50 text-decoration-none d-flex align-items-center gap-2">
-                    <Camera size={20} /> Instagram
+                    <Camera size={20} /> Photography 
                   </a>
                 </div>
               </Card.Body>
